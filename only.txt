@@ -2,3 +2,7 @@ Chlo kaam start krte hain isme
 isme hi krenge sb
 ok
 text mai hi ?
+Meeting 1 :
+The discussion on the modelling of database was done.
+E.R.D. was discussed and drafted.
+The e.r.d can be viewed on https://erdplus.com/edit-diagram/3786c8d7-204a-4cd8-ac76-e3f2ec1a5d37
