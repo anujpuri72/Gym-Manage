@@ -187,7 +187,6 @@ if (isset($_POST['userID']) && isset($_POST['planID'])) {
 
 
 
-				<?php include('footer.php'); ?>
 
 			</div>
 

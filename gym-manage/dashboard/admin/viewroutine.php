@@ -148,6 +148,5 @@ page_protect();
 		</div>
 
 </body>
-<?php include('footer.php'); ?>
 
 </html>

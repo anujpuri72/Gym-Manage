@@ -81,9 +81,9 @@ page_protect();
 				</div>
 
 			</div>
-			<div class = "tile-stats title">
-			<h1 >Members Added per Month</h1>
-	</div>
+			<div class="tile-stats title">
+				<h1>Members Added per Month</h1>
+			</div>
 
 			<hr />
 
@@ -167,7 +167,6 @@ page_protect();
 				}
 			</script>
 
-			<?php include('footer.php'); ?>
 
 		</div>
 
