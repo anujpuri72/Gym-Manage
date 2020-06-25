@@ -79,7 +79,9 @@ page_protect();
 					
 				</div>
 
-		<h3>Create Routine</h3>
+        <div class = "tile-stats title">
+			<h1 >Create a new Routine</h1>
+	</div>
 
 		<hr />
 

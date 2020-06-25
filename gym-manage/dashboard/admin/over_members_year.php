@@ -81,8 +81,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h2>Member Per Year</h2>
+			<div class = "tile-stats title">
+			<h1 >Members added Year Wise</h1>
+	</div>
 
 			<hr />
 

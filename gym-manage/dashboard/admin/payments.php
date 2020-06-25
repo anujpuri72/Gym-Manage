@@ -83,7 +83,9 @@ page_protect();
 
 			</div>
 
-			<h2>Payments</h2>
+			<div class = "tile-stats title">
+			<h1 >Payments</h1>
+	</div>
 
 			<hr />
 <!-- Modify the table to make it aeshtetic -->

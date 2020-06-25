@@ -100,9 +100,11 @@ if(isset($_POST['submit'])){
 					
 				</div>
 
-		<h3>Edit user profile</h3>
+				<div class = "tile-stats title">
+			<h1 >View Admin Profile</h1>
+			<h6 style = "text-align : center ; color : red">(*You will be required to Login Again After Profile Update)<h6>
+	</div>
 		
-		(You will be required to Login Again After Profile Update)
 		
 		<hr />
 		
