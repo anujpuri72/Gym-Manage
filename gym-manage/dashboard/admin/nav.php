@@ -7,7 +7,7 @@
 
 	<li id="paymnt"><a href="payments.php"><i class="entypo-star"></i><span>Payments</span></a></li>
 
-	<li class="" id="hassubopen"><a href="#" onclick="memberExpand(1)"><i class="entypo-users"></i><span>Members</span></a>
+	<li id="hassubopen"><a href="#" onclick="memberExpand(1)"><i class="entypo-users"></i><span>Members</span></a>
 		<ul id="memExpand">
 			<li class="active">
 				<a href="view_mem.php"><span>Edit Members</span></a></li>
