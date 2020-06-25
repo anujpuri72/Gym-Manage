@@ -1,4 +1,5 @@
-﻿<?php
+﻿<!-- file to show existing mebers when chlicked on edit members menu -->
+<?php
 require '../../include/db_conn.php';
 page_protect();
 ?>
