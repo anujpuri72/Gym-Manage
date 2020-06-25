@@ -314,7 +314,8 @@ a {
   text-align: center;
   cursor: pointer;
   white-space: nowrap;
-  border-radius: 10px;
+  margin-bottom: 15px !important;
+  margin-right: 4px !important;
 }
 .a1-btn:hover,
 .a1-btn-block:hover,
