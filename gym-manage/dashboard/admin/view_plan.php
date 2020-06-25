@@ -85,7 +85,10 @@ page_protect();
 
 			</div>
 
-			<h3>Manage Plan</h3>
+			<div class = "tile-stats title">
+			<h1 >Manage Existing Plans</h1>
+	</div>
+			
 
 			<hr />
 

@@ -79,55 +79,58 @@ page_protect();
 					
 				</div>
 
-		<h3>Create Routine</h3>
+        <div class = "tile-stats title">
+			<h1 >Create a new Routine</h1>
+	</div>
 
 		<hr />
 
 		
 		
 		 <div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
-        <div class="a1-card-8 a1-light-gray" style="width:500px; margin:0 auto;">
-		<div class="a1-container a1-dark-gray a1-center">
-        	<h6>NEW ROUTINE</h6>
+        <div class="a1-card-8 a1-light-blue" style="width:500px; margin:0 auto;">
+		<div class="a1-container a1-light-blue a1-center" style="border-radius:10px">
+        	<h3><b>NEW ROUTINE</b></h6>
         </div>
-       <form id="form1" name="form1" method="post" class="a1-container" action="saveroutine.php">
+       <form id="form1" name="form1" method="post" class="a1-container" action="saveroutine.php" >
          <table width="100%" border="0" align="center">
          <tr>
            <td height="35"><table width="100%" border="0" align="center">
            	 <tr>
            	   <td height="35">ROUTINE NAME:</td>
-           	   <td height="35"><input name="rname"  size="30" required/></td>
+           	   <td height="35"><input name="rname"  placeholder = "Routine Name"  required style = "margin: 0px ; width : 100%;padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); "/></td>
          	   </tr>
 			   
 			   <tr>
                <td height="35">DAY 1:</td>
                <td height="35"><label for="textarea"></label>
-                 <textarea name="day1" id="textarea" style="margin: 0px; width: 236px; height: 42px; resize:none;"></textarea></td>
+                 <textarea name="day1" id="textarea"  placeholder = "Day 1" style = "margin-top: 10px ; padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); width: 100%;"></textarea></td>
              </tr>
              <tr>
                <td height="35">DAY 2:</td>
                <td height="35"><label for="textarea"></label>
-                 <textarea name="day2" id="textarea" style="margin: 0px; width: 236px; height: 42px;resize:none;"></textarea></td></td>
+                 <textarea name="day2" id="textarea" placeholder = "Day 2" style = "margin: 0px ; padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); width: 100%;"></textarea></td></td>
              </tr>
+
              <tr>
                <td height="35">DAY 3:</td>
                <td height="35"><label for="textarea"></label>
-                 <textarea name="day3" id="textarea" style="margin: 0px; width: 236px; height: 42px;resize:none;"></textarea></td></td>
+                 <textarea name="day3" id="textarea" placeholder = "Day 3" style = "margin: 0px ; padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); width: 100%;"></textarea></td></td>
              </tr>
              <tr>
                <td height="35">DAY 4:</td>
                <td height="35"><label for="textarea"></label>
-                 <textarea name="day4" id="textarea" style="margin: 0px; width: 236px; height: 42px;resize:none;"></textarea></td></td>
+                 <textarea name="day4" id="textarea" placeholder = "Day 4" style = "margin: 0px ; padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); width: 100%;"></textarea></td></td>
              </tr>
             <tr>
                <td height="35">DAY 5:</td>
                <td height="35"><label for="textarea"></label>
-                 <textarea name="day5" id="textarea" style="margin: 0px; width: 236px; height: 42px;resize:none;"></textarea><td></td>
+                 <textarea name="day5" id="textarea" placeholder = "Day 5" style = "margin: 0px ; padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); width: 100%;"></textarea><td></td>
              </tr>
              <tr>
                <td height="35">DAY 6:</td>
                <td height="35"><label for="textarea"></label>
-                 <textarea name="day6" id="textarea" style="margin: 0px; width: 236px; height: 42px;resize:none;"></textarea></td></td>
+                 <textarea name="day6" id="textarea" placeholder = "Day 6" style = "margin: 0px ; padding : 10px; border: 0;border-bottom:1px solid #eee;box-shadow:0 0 15px 4px rgba(0,0,0,0.06); width: 100%;"></textarea></td></td>
              </tr>
 			 
             

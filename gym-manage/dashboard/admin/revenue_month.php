@@ -82,8 +82,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h3>Income Per Month</h3>
+			<div class = "tile-stats title">
+			<h1 >Revenue Generated per Month</h1>
+	</div>
 
 			<hr />
 

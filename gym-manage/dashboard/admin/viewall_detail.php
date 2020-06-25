@@ -98,7 +98,7 @@ if (isset($_POST['name'])) {
 	    
 				    $query  = "SELECT * FROM users u 
 				    		   INNER JOIN address a ON u.userid=a.id
-				    		   INNER JOIN  health_status h ON u.userid=h.uid
+				    		--    INNER JOIN  health_status h ON u.userid=h.uid
 				    		   INNER JOIN enrolls_to e on u.userid=e.uid
 				    		   INNER JOIN plan p on e.pid=p.pid
 				    		   WHERE userid='$memid' and e.renewal='yes'";
@@ -122,10 +122,10 @@ if (isset($_POST['name'])) {
 				          	$state=$row['state'];
 				          	$city=$row['city'];  
 				          	$zipcode=$row['zipcode'];
-				            $calorie=$row['calorie'];
-				            $height=$row['height'];
-				            $weight=$row['weight'];
-				            $fat=$row['fat'];
+				            // $calorie=$row['calorie'];
+				            // $height=$row['height'];
+				            // $weight=$row['weight'];
+				            // $fat=$row['fat'];
 				            $planname=$row['planName'];
 				            $pamount=$row['amount'];
 				            $pvalidity=$row['validity'];
@@ -200,8 +200,8 @@ if (isset($_POST['name'])) {
                <td height="35">ZIPCODE:</td>
                <td height="35"><input type="text" id="boxxe" readonly="" value='<?php echo $zipcode?>'></td>
              </tr>
-			 <tr>
-               <td height="35">CALORIE:</td>
+			 <!-- <tr> -->
+               <!-- <td height="35">CALORIE:</td>
                <td height="35"><input type="text" id="boxxe" readonly="" value='<?php echo $calorie?>'></td>
              </tr>
 			 <tr>
@@ -216,7 +216,7 @@ if (isset($_POST['name'])) {
                <td height="35">FAT:</td>
                <td height="35"><input type="text" readonly="" id="boxxe" value='<?php echo $weight?>'></td>
              </tr>
-			 <tr>
+			 <tr> -->
                <td height="35">PLAN NAME:</td>
                <td height="35"><input type="text" readonly="" id="boxxe" value='<?php echo $planname?>'></td>
              </tr>

@@ -1438,6 +1438,7 @@ input[type="radio"].a1-radio:disabled + .a1-validate {
 }
 .a1-container {
   padding: 0.01em 16px;
+  border-radius: 8px;
 }
 .a1-panel {
   padding: 0.01em 16px;
@@ -1483,6 +1484,7 @@ input[type="radio"].a1-radio:disabled + .a1-validate {
 }
 .a1-card-8 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  border-radius: 10px !important;
 }
 .a1-card-12 {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
