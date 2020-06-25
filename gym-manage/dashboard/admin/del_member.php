@@ -1,3 +1,4 @@
+<!-- delete a user from database -->
 <?php
 require '../../include/db_conn.php';
 page_protect();
@@ -9,7 +10,7 @@ if (strlen($msgid) > 0) {
     echo "<meta http-equiv='refresh' content='0; url=view_mem.php'>";
 } else {
     echo "<html><head><script>alert('ERROR! Delete Opertaion Unsucessfull');</script></head></html>";
-   echo "error".mysqli_error($con);
+    echo "error" . mysqli_error($con);
 }
 
 ?>

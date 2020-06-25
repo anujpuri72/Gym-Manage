@@ -1,3 +1,4 @@
+<!-- file to generate an invoice -->
 <?php
 require '../../include/db_conn.php';
 page_protect();

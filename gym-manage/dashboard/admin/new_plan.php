@@ -1,4 +1,4 @@
-﻿<!-- add a new plan -->
+﻿<!-- add a new plan form-->
 
 <?php
 require '../../include/db_conn.php';
@@ -10,7 +10,7 @@ page_protect();
 
 <head>
 
-	<title>Titan Gym | New Plan</title>
+	<title>GOLD'S Gym | New Plan</title>
 
 	<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 	<script type="text/javascript" src="../../js/Script.js"></script>
@@ -37,7 +37,7 @@ page_protect();
 
 				<!-- logo -->
 				<div class="logo">
-					<a href="main.php">
+					<a href="https://en.wikipedia.org/wiki/Gold%27s_Gym">
 						<img src="../../images/logo.png" alt="" width="192" height="80" />
 					</a>
 				</div>
@@ -83,8 +83,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h3>Create Plan</h3>
+			<div class = "tile-stats title">
+			<h1 >Add a new Plan</h1>
+	</div>
 
 			<hr />
 
@@ -133,8 +134,8 @@ page_protect();
 										<tr>
 										<tr>
 											<td height="35">&nbsp;</td>
-											<td height="35"><input class="a1-btn a1-blue" type="submit" name="submit" id="submit" value="CREATE PLAN">
-												<input class="a1-btn a1-blue" type="reset" name="reset" id="reset" value="Reset"></td>
+											<td height="35"><input class="a1-btn a1-green" type="submit" name="submit" id="submit" value="CREATE PLAN">
+												<input class="a1-btn a1-red" type="reset" name="reset" id="reset" value="Reset"></td>
 										</tr>
 									</table>
 								</td>
@@ -144,9 +145,6 @@ page_protect();
 				</div>
 			</div>
 
-
-
-			<?php include('footer.php'); ?>
 		</div>
 
 </body>

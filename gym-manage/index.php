@@ -22,7 +22,7 @@ if (isset($_SESSION["user_data"])) {
 		<div id="container">
 			<div class="login-container">
 
-				<div class="login-header login-caret">
+				<div class="login-header login-caret login-handler">
 
 					<div class="login-content">
 

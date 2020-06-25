@@ -1,4 +1,5 @@
-﻿<?php
+﻿<!-- dashboard page -->
+<?php
 require '../../include/db_conn.php';
 page_protect(); //used to protect session details on reloading
 
@@ -34,7 +35,7 @@ page_protect(); //used to protect session details on reloading
 
 				<!-- logo -->
 				<div class="logo">
-					<a href="main.php">
+					<a href="https://en.wikipedia.org/wiki/Gold%27s_Gym">
 						<img src="../../images/logo.png" alt="" width="192" height="80" />
 					</a>
 				</div>
@@ -80,10 +81,10 @@ page_protect(); //used to protect session details on reloading
 				</div>
 
 			</div>
+			<div class = "tile-stats title" style = " margin-bottom: 30px;">
+			<h1 >GOLD'S GYM</h1>
 
-			<h2>GOLD'S GYM</h2>
-
-			<hr>
+	</div>			<!-- <hr> -->
 
 			<div class="col-sm-3"><a href="revenue_month.php">
 					<div class="tile-stats tile-red">

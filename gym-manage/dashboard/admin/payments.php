@@ -1,4 +1,5 @@
-﻿<?php
+﻿<!-- payments page form -->
+<?php
 require '../../include/db_conn.php';
 page_protect();
 ?>
@@ -34,7 +35,7 @@ page_protect();
 
 				<!-- logo -->
 				<div class="logo">
-					<a href="main.php">
+					<a href="https://en.wikipedia.org/wiki/Gold%27s_Gym">
 						<img src="../../images/logo.png" alt="" width="192" height="80" />
 					</a>
 				</div>
@@ -82,10 +83,12 @@ page_protect();
 
 			</div>
 
-			<h2>Payments</h2>
+			<div class="tile-stats title">
+				<h1>Payments</h1>
+			</div>
 
 			<hr />
-
+			<!-- Modify the table to make it aeshtetic -->
 			<table class="table table-bordered datatable" id="table-1" border=1>
 				<thead>
 					<tr>

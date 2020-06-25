@@ -1,4 +1,5 @@
-﻿<?php
+﻿<!-- user edit detail form  -->
+<?php
 require '../../include/db_conn.php';
 page_protect();
 
@@ -11,7 +12,7 @@ if (isset($_POST['name'])) {
 
 	<head>
 
-		<title>Titan Gym | Edit Member</title>
+		<title>GOLD'S Gym | Edit Member</title>
 		<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 		<script type="text/javascript" src="../../js/Script.js"></script>
 		<link rel="stylesheet" href="../../css/dashMain.css">
@@ -45,7 +46,7 @@ if (isset($_POST['name'])) {
 
 					<!-- logo -->
 					<div class="logo">
-						<a href="main.php">
+						<a href="https://en.wikipedia.org/wiki/Gold%27s_Gym">
 							<img src="../../images/logo.png" alt="" width="192" height="80" />
 						</a>
 					</div>

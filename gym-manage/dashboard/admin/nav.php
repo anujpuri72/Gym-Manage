@@ -24,7 +24,7 @@
 			<li class="active">
 				<a href="new_plan.php"><span>New Plan</span></a></li>
 
-			<li><a href="view_plan.php"><span>Edit Subsciption Details</span></a></li>
+			<li><a href="view_plan.php"><span>Edit Existing Plans</span></a></li>
 		</ul>
 
 	<li class="" id="overviewhassubopen"><a href="#" onclick="memberExpand(3)"><i class="entypo-box"></i><span>Overview</span></a>
