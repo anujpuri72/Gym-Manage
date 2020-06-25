@@ -1,4 +1,5 @@
-﻿<?php
+﻿<!-- dashboard page -->
+<?php
 require '../../include/db_conn.php';
 page_protect(); //used to protect session details on reloading
 
