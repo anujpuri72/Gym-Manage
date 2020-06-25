@@ -86,7 +86,6 @@ page_protect();
 				</div>
 
 			</div>
-
 			<div class = "tile-stats title">
 			<h1 >New Registration</h1>
 	</div>
@@ -94,7 +93,7 @@ page_protect();
 
 			<hr />
 
-			<div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
+			<div class="a1-container a1-small a1-padding-32" style=" margin-bottom:2px;">
 				<div class="a1-card-8 a1-light-blue" style="width:500px; margin:0 auto;">
 					<div class="a1-container a1-light-blue a1-center">
 						<h4><b>NEW ENTRY </b></h4>	

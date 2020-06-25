@@ -81,10 +81,10 @@ page_protect(); //used to protect session details on reloading
 				</div>
 
 			</div>
-			<div class = "tile-stats title">
+			<div class = "tile-stats title" style = " margin-bottom: 30px;">
 			<h1 >GOLD'S GYM</h1>
-	</div>
-			<!-- <hr> -->
+
+	</div>			<!-- <hr> -->
 
 			<div class="col-sm-3"><a href="revenue_month.php">
 					<div class="tile-stats tile-red">

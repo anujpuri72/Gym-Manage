@@ -675,7 +675,7 @@ hr {
 }
 
 .tile-stats.tile-red {
-  background: linear-gradient(to left, rgba(7, 7, 7, 0), #f56954);
+  background: linear-gradient(to top left, rgba(7, 7, 7, 0), #f56954);
   border: 0px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
@@ -748,29 +748,38 @@ dfn {
 }
 
 .tile-stats.tile-green {
-  background: linear-gradient(to left, rgb(7, 7, 7, 0), #00a65a);
+  background: linear-gradient(to top left, rgb(7, 7, 7, 0), #00a65a);
   border: 0px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .tile-stats.tile-aqua {
-  background: linear-gradient(to left, rgb(7, 7, 7, 0), #00c0ef);
+  background: linear-gradient(to top left, rgb(7, 7, 7, 0), #00c0ef);
   border: 0px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .tile-stats.tile-blue {
-  background: linear-gradient(to left, rgb(7, 7, 7, 0), #0073b7);
+  background: linear-gradient(to top left, rgb(7, 7, 7, 0), #0073b7);
   border: 0px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 .tile-stats.title {
-  background: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(99, 78, 219));
+  background: linear-gradient(
+    to top left,
+    rgba(255, 0, 0, 0),
+    rgb(99, 78, 219)
+  );
   border: 0px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
   color: white;
+  margin-bottom: 30px;
+  height: 100 px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
