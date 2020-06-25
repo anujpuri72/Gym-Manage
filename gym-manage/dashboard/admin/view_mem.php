@@ -87,8 +87,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h3>Edit Member</h3>
+			<div class = "tile-stats title">
+			<h1 >Edit Member</h1>
+	</div>
 
 			<hr />
 

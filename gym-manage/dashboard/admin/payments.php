@@ -83,11 +83,13 @@ page_protect();
 
 			</div>
 
-			<h2>Payments</h2>
+			<div class="tile-stats title">
+				<h1>Payments</h1>
+			</div>
 
 			<hr />
-
-			<table id="table-1" border=1>
+			<!-- Modify the table to make it aeshtetic -->
+			<table class="table table-bordered datatable" id="table-1" border=1>
 				<thead>
 					<tr>
 						<th>Sl.No</th>

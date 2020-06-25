@@ -81,8 +81,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h2>Member Per Month</h2>
+			<div class = "tile-stats title">
+			<h1 >Members Added per Month</h1>
+	</div>
 
 			<hr />
 

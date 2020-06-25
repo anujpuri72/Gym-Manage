@@ -88,8 +88,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h3>Change Password</h3>
+			<div class = "tile-stats title">
+			<h1 >Change Password</h1>
+	</div>
 
 			<hr />
 

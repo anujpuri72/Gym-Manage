@@ -83,8 +83,9 @@ page_protect();
 				</div>
 
 			</div>
-
-			<h3>Create Plan</h3>
+			<div class = "tile-stats title">
+			<h1 >Add a new Plan</h1>
+	</div>
 
 			<hr />
 

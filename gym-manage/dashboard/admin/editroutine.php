@@ -90,9 +90,9 @@ page_protect();
 			</div>
 
 
-
-
-			<h2>Routines</h2>
+			<div class="tile-stats title">
+				<h1>Change Existing Routine</h1>
+			</div>
 
 			<hr />
 
