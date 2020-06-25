@@ -86,15 +86,17 @@ page_protect();
 
 			</div>
 
-
-			<h3>New Registration</h3>
+			<div class = "tile-stats title">
+			<h1 >New Registration</h1>
+	</div>
+			<!-- <h3>New Registration</h3> -->
 
 			<hr />
 
 			<div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
-				<div class="a1-card-8 a1-light-gray" style="width:500px; margin:0 auto;">
-					<div class="a1-container a1-dark-gray a1-center">
-						<h6>NEW ENTRY</h6>
+				<div class="a1-card-8 a1-light-blue" style="width:500px; margin:0 auto;">
+					<div class="a1-container a1-light-blue a1-center">
+						<h4><b>NEW ENTRY </b></h4>	
 					</div>
 					<form id="form1" name="form1" method="post" class="a1-container" action="new_submit.php">
 						<table width="100%" border="0" align="center">

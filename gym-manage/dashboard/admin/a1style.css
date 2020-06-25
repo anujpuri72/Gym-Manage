@@ -1438,6 +1438,7 @@ input[type="radio"].a1-radio:disabled + .a1-validate {
 }
 .a1-container {
   padding: 0.01em 16px;
+  border-radius: 8px;
 }
 .a1-panel {
   padding: 0.01em 16px;

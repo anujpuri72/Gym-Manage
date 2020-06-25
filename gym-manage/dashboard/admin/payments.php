@@ -85,7 +85,7 @@ page_protect();
 			<h2>Payments</h2>
 
 			<hr />
-
+<!-- Modify the table to make it aeshtetic -->
 			<table class="table table-bordered datatable" id="table-1" border=1>
 				<thead>
 					<tr>
