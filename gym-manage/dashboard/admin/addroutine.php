@@ -86,11 +86,11 @@ page_protect();
 		
 		
 		 <div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
-        <div class="a1-card-8 a1-light-gray" style="width:500px; margin:0 auto;">
-		<div class="a1-container a1-dark-gray a1-center">
-        	<h6>NEW ROUTINE</h6>
+        <div class="a1-card-8 a1-light-blue" style="width:500px; margin:0 auto;">
+		<div class="a1-container a1-light-blue a1-center" style="border-radius:10px">
+        	<h3><b>NEW ROUTINE</b></h6>
         </div>
-       <form id="form1" name="form1" method="post" class="a1-container" action="saveroutine.php" style="background-color : #D0E1F9;">
+       <form id="form1" name="form1" method="post" class="a1-container" action="saveroutine.php" >
          <table width="100%" border="0" align="center">
          <tr>
            <td height="35"><table width="100%" border="0" align="center">
