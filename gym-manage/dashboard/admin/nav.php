@@ -1,10 +1,10 @@
+<!-- Sidebar Navigation Menu -->
+<ul id="main-menu" class="">
 
-<ul id="main-menu" class="" >
-			
-    <li id="dash"><a href="index.php"><i class="entypo-gauge"></i><span>Dashboard</span></a></li>
-                
-	<li id="regis"><a href="new_entry.php"><i class="entypo-user-add"></i><span>New Registration</span></a>                
-				
+	<li id="dash"><a href="index.php"><i class="entypo-gauge"></i><span>Dashboard</span></a></li>
+
+	<li id="regis"><a href="new_entry.php"><i class="entypo-user-add"></i><span>New Registration</span></a>
+
 	<li id="paymnt"><a href="payments.php"><i class="entypo-star"></i><span>Payments</span></a></li>
 
 	<li class="" id="hassubopen"><a href="#" onclick="memberExpand(1)"><i class="entypo-users"></i><span>Members</span></a>
@@ -16,9 +16,9 @@
 		</ul>
 	</li>
 
-	<li id="health_status"><a href="new_health_status.php"><i class="entypo-user-add"></i><span>Health Status</span></a> 	
 
-		<li class="" id="planhassubopen"><a href="#" onclick="memberExpand(2)"><i class="entypo-quote"></i><span>Plan</span></a>
+
+	<li class="" id="planhassubopen"><a href="#" onclick="memberExpand(2)"><i class="entypo-quote"></i><span>Plan</span></a>
 
 		<ul id="planExpand">
 			<li class="active">
@@ -40,7 +40,7 @@
 
 			<li>
 				<a href="revenue_month.php"><span>Income per Month</span></a>
-			</li>			
+			</li>
 
 		</ul>
 
@@ -67,4 +67,4 @@
 
 	<li><a href="logout.php"><i class="entypo-logout"></i><span>Logout</span></a></li>
 
-</ul>	
+</ul>
