@@ -57,7 +57,7 @@ if (isset($_POST['userID']) && isset($_POST['planID'])) {
 
 					<!-- logo -->
 					<div class="logo">
-						<a href="main.php">
+						<a href="https://en.wikipedia.org/wiki/Gold%27s_Gym">
 							<img src="../../images/logo.png" alt="" width="192" height="80" />
 						</a>
 					</div>

@@ -1,3 +1,4 @@
+<!-- file to edit user table in database -->
 <?php
 require '../../include/db_conn.php';
 page_protect();
