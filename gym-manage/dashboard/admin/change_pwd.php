@@ -10,7 +10,7 @@ page_protect();
 
 <head>
 
-	<title>Titan Gym | Reset</title>
+	<title>GOLD'S Gym | Reset</title>
 	<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 	<script type="text/javascript" src="../../js/Script.js"></script>
 	<link rel="stylesheet" href="../../css/dashMain.css">
@@ -88,9 +88,9 @@ page_protect();
 				</div>
 
 			</div>
-			<div class = "tile-stats title">
-			<h1 >Change Password</h1>
-	</div>
+			<div class="tile-stats title">
+				<h1>Change Password</h1>
+			</div>
 
 			<hr />
 
@@ -150,7 +150,6 @@ page_protect();
 
 
 
-			<?php include('footer.php'); ?>
 		</div>
 
 </body>

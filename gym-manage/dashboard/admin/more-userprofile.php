@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 
 <head>
 
-	<title>GOLD'S Gym | Admin</title>
+	<title>GOLD'S GYM | Admin</title>
 	<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 	<script type="text/javascript" src="../../js/Script.js"></script>
 	<link rel="stylesheet" href="../../css/dashMain.css">
@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
 
 				<!-- logo -->
 				<div class="logo">
-					<a href="https://en.wikipedia.org/wiki/Gold%27s_Gym">
+					<a href="main.php">
 						<img src="../../images/logo.png" alt="" width="192" height="80" />
 					</a>
 				</div>
@@ -99,55 +99,6 @@ if (isset($_POST['submit'])) {
 				</div>
 
 			</div>
-
-			<h3>Edit user profile</h3>
-
-			(You will be required to Login Again After Profile Update)
-
-			<hr />
-
-			<?php $user_id_auth = $_SESSION['user_data']; ?>
-
-			<div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
-				<div class="a1-card-8 a1-light-gray" style="width:600px; margin:0 auto;">
-					<div class="a1-container a1-dark-gray a1-center">
-						<h6>CHANGE PROFILE</h6>
-					</div>
-					<form id="form1" name="form1" method="post" class="a1-container" action="">
-						<table width="100%" border="0" align="center">
-							<tr>
-								<td height="35">
-									<table width="100%" border="0" align="center">
-										<tr>
-											<td height="35">ID:</td>
-											<td height="35"><input type="text" name="login_id" value="<?php echo $_SESSION['user_data']; ?>" class="form-control" required /></td>
-										</tr>
-										<tr>
-											<td height="35">FULL NAME:</td>
-											<td height="35"><input class="form-control" type="text" name="full_name" id="textfield2" value="<?php echo $_SESSION['username']; ?>" maxlength="25" required></td>
-										</tr>
-										<tr>
-											<td height="35">PASSWORD</td>
-											<td height="35"><span class="form-control">*********</span> <a href="change_pwd.php" class="a1-btn a1-orange">Change password</a> <span class="help-block">*For security reasons hidden</span></td><br>
-										</tr>
-
-										<br>
-
-										<tr>
-										<tr>
-											<td height="35">&nbsp;</td>
-											<td height="35"><input class="a1-btn a1-blue" type="submit" name="submit" id="submit" value="SUBMIT">
-												<input class="a1-btn a1-blue" type="reset" name="reset" id="reset" value="Reset"></td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</form>
-				</div>
-			</div>
-
-
 
 			<div class="tile-stats title">
 				<h1>View Admin Profile</h1>
@@ -201,15 +152,6 @@ if (isset($_POST['submit'])) {
 					</form>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
-
 		</div>
 
 </body>
