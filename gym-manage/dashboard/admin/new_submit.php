@@ -1,4 +1,4 @@
-<!-- removed health dependencies -->
+<!-- file to ad new member on clicking submition button   -->
 <?php
 require '../../include/db_conn.php';
 page_protect();

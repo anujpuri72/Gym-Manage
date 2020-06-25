@@ -10,7 +10,7 @@ page_protect();
 
 <head>
 
-	<title>Titan Gym | New Plan</title>
+	<title>GOLD'S Gym | New Plan</title>
 
 	<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 	<script type="text/javascript" src="../../js/Script.js"></script>
@@ -133,8 +133,8 @@ page_protect();
 										<tr>
 										<tr>
 											<td height="35">&nbsp;</td>
-											<td height="35"><input class="a1-btn a1-blue" type="submit" name="submit" id="submit" value="CREATE PLAN">
-												<input class="a1-btn a1-blue" type="reset" name="reset" id="reset" value="Reset"></td>
+											<td height="35"><input class="a1-btn a1-green" type="submit" name="submit" id="submit" value="CREATE PLAN">
+												<input class="a1-btn a1-red" type="reset" name="reset" id="reset" value="Reset"></td>
 										</tr>
 									</table>
 								</td>
@@ -144,9 +144,6 @@ page_protect();
 				</div>
 			</div>
 
-
-
-			<?php include('footer.php'); ?>
 		</div>
 
 </body>

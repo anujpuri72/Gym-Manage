@@ -10,7 +10,7 @@ page_protect();
 
 <head>
 
-	<title>Titan Gym | View Member</title>
+	<title>GOLD'S Gym | View Member</title>
 	<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 	<script type="text/javascript" src="../../js/Script.js"></script>
 	<link rel="stylesheet" href="../../css/dashMain.css">

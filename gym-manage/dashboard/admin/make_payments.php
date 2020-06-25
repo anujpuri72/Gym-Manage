@@ -1,3 +1,4 @@
+<!-- form to make a payment -->
 <?php
 require '../../include/db_conn.php';
 page_protect();
