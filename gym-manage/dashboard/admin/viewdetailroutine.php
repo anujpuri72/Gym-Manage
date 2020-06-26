@@ -10,7 +10,7 @@ page_protect();
 
 <head>
 
-	<title>Titan Gym | Detail Routine</title>
+	<title>Gold's Gym | Detail Routine</title>
 	<link rel="stylesheet" href="../../css/style.css" id="style-resource-5">
 	<script type="text/javascript" src="../../js/Script.js"></script>
 	<link rel="stylesheet" href="../../css/dashMain.css">
@@ -97,8 +97,10 @@ page_protect();
 				</div>
 
 			</div>
-			<h2>Routine Detail</h2>
-			<hr />
+			<div class = "tile-stats title">
+			<h1 >Routine Details</h1>
+	</div>
+	<hr />
 
 			<?php
 			$id = $_GET['id'];
@@ -113,7 +115,7 @@ page_protect();
 			<div id=print>
 				<table width="619" height="673" border="1" align="center">
 					<tr>
-						<td height="87" colspan="2">Routine Name:<?php echo $row['tname'] ?> &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;<span align="right"> <img src="logo.png" width="121" height="114" alt="" /></span></td>
+						<td height="87" colspan="2">Routine Name:<?php echo $row['tname'] ?> <br /><span align="right"> <img src="../../images/logo.png" width="121" height="114" alt="" /></span></td>
 					</tr>
 					<tr>
 						<td width="186" height="103">Day 1:</td>
