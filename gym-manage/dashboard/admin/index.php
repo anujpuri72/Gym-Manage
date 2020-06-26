@@ -18,7 +18,7 @@ page_protect(); //used to protect session details on reloading
 	<link rel="stylesheet" type="text/css" href="../../css/entypo.css">
 	<style>
 		.page-container .sidebar-menu #main-menu li#dash>a {
-			background-color: #2b303a;
+			background-color: rgba(3, 13, 13, 0.5);
 			color: #ffffff;
 		}
 	</style>
@@ -72,7 +72,7 @@ page_protect(); //used to protect session details on reloading
 						</li>
 
 						<li>
-							<a href="logout.php" style = "color:#fff;">
+							<a href="logout.php" style="color:#fff;">
 								Log Out <i class="entypo-logout right"></i>
 							</a>
 						</li>
@@ -81,13 +81,13 @@ page_protect(); //used to protect session details on reloading
 				</div>
 
 			</div>
-			<div class = "tile-stats title" style = " margin-bottom: 30px;">
-			<h1 >GOLD'S GYM</h1>
+			<div class="tile-stats title" style=" margin-bottom: 30px;">
+				<h1>GOLD'S GYM</h1>
 
-	</div>			<!-- <hr> -->
+			</div> <!-- <hr> -->
 
 			<div class="col-sm-3"><a href="revenue_month.php">
-					<div class="tile-stats tile-red">
+					<div class="tile-stats tile-green">
 						<div class="icon"><i class="entypo-users"></i></div>
 						<div class="num">
 							<h2>Paid Income This Month</h2><br>
@@ -118,10 +118,10 @@ page_protect(); //used to protect session details on reloading
 
 
 			<div class="col-sm-3"><a href="table_view.php">
-					<div class="tile-stats tile-green">
+					<div class="tile-stats tile-red">
 						<div class="icon"><i class="entypo-chart-bar"></i></div>
 						<div class="num">
-							<h2>Total <br>Members</h2><br>
+							<h2>Total Members</h2><br>
 							<?php
 							$query = "select COUNT(*) from users";
 
