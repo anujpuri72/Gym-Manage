@@ -16,9 +16,17 @@ body {
     sans-serif;
   font-size: 12px;
   line-height: 1.428571429;
-
   display: block;
   margin: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    #6955dc,
+    rgba(105, 85, 220, 0.2)
+  ) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200% !important;
+  /* height: ; */
 }
 
 *,
@@ -80,7 +88,7 @@ img {
 }
 
 .login-page .login-header .description {
-  font-size: 13px;
+  font-size: 17px;
   margin-top: 20px;
   margin-bottom: 0;
   transition: all 550ms ease-in-out;
@@ -117,6 +125,7 @@ p {
 .login-page .login-progressbar {
   height: 0px;
   width: 100%;
+  background-color: #1f232a !important;
   overflow: hidden;
   transition: all 550ms ease-in-out;
 }
@@ -130,6 +139,7 @@ p {
   position: relative;
   padding-top: 60px;
   transition: all 550ms ease-in-out;
+  background-color: #6955dc;
 }
 
 .login-page .login-content {
@@ -397,7 +407,7 @@ a {
   top: 0;
   left: 0;
   bottom: 0;
-  background: #303641;
+  background: linear-gradient(rgba(3, 13, 13, 0.5), rgb(115, 115, 115, 0.2));
   color: #aaabae;
   z-index: 1;
   min-height: 796px;
@@ -656,7 +666,7 @@ ol {
 }
 
 .page-container .sidebar-menu #main-menu li ul > li > a {
-  background-color: #2b303a;
+  background-color: transparent;
   padding-left: 40px;
 }
 

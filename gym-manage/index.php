@@ -11,7 +11,7 @@ if (isset($_SESSION["user_data"])) {
 <html>
 
 <head>
-	<title>Our Gym | Login</title>
+	<title>GOlD'S Gym | Login</title>
 	<link rel="stylesheet" href="./css/style.css" />
 	<link rel="stylesheet" type="text/css" href="./css/entypo.css">
 </head>
@@ -30,7 +30,7 @@ if (isset($_SESSION["user_data"])) {
 							<img src="./images/logo.png" alt="" />
 						</a>
 
-						<p class="description">Dear user, log in to access the admin area!</p>
+						<h5 class="description">Dear user, log in to access the admin area!</h5>
 					</div>
 
 				</div>
