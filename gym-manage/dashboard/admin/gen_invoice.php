@@ -53,7 +53,7 @@ if ($res) {
 
     <table id=space width="760" height="397" border="0" align="center">
       <tr>
-        <td width="222" height="198"><img src="logo.png" width="114" height="115" alt="" /></td>
+        <td width="222" height="198"><img src="../../images/logo.png" width="114" height="115" alt="" /></td>
         <td width="317">
           <p><strong>GOlD'S GYM</strong></p>
           <p>Ahmedabad,</p>

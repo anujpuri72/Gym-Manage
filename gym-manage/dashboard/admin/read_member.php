@@ -85,8 +85,9 @@
 
 					</div>
 
-					<h3>Member History</h3>
-
+					<div class = "tile-stats title">
+			<h1 >Member History</h1>
+	</div>
 					Details of : - <?php
 									$id     = $_POST['name'];
 									$query  = "select * from users WHERE userid='$id'";

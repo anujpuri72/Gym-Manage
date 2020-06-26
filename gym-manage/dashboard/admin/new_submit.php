@@ -15,8 +15,7 @@ $phn = $_POST['mobile'];
 $email = $_POST['email'];
 $jdate = $_POST['jdate'];
 $plan = $_POST['plan'];
-
-if ($dob > date("Y.m.d") or strlen($zipcode) != 6) {
+if ($dob > date("Y.m.d") or strlen($zipcode) != 6 or strlen($phn)!=10) {
   echo "<head><script>alert('information not valid');</script></head></html>";
   echo "<meta http-equiv='refresh' content='0; url=new_entry.php'>";
 } else {

@@ -106,7 +106,9 @@ if (isset($_POST['userID']) && isset($_POST['planID'])) {
 
 				</div>
 
-				<h3>GOLd'S Gym</h3>
+				<div class = "tile-stats title">
+			<h1 >Payment</h1>
+	</div>
 
 				<hr />
 
