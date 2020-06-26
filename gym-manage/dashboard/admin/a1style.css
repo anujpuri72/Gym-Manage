@@ -12,6 +12,12 @@ html {
 }
 body {
   margin: 0;
+  background-image: linear-gradient(to bottom right, #6955dc, #fff) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* height: ; */
 }
 article,
 aside,
