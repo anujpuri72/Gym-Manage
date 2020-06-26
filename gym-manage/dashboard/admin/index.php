@@ -66,13 +66,13 @@ page_protect(); //used to protect session details on reloading
 				<!-- Raw Links -->
 				<div class="col-md-6 col-sm-4 clearfix hidden-xs">
 
-					<ul class="list-inline links-list pull-right">
+					<ul class="list-inline links-list pull-right" style="font-size: 15px">
 
 						<li>Welcome <?php echo $_SESSION['full_name']; ?>
 						</li>
 
 						<li>
-							<a href="logout.php">
+							<a href="logout.php" style = "color:#fff;">
 								Log Out <i class="entypo-logout right"></i>
 							</a>
 						</li>
