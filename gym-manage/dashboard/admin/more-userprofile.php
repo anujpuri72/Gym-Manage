@@ -115,9 +115,9 @@ if (isset($_POST['submit'])) {
 
 
 			<div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
-				<div class="a1-card-8 a1-light-gray" style="width:600px; margin:0 auto;">
-					<div class="a1-container a1-dark-gray a1-center">
-						<h6>CHANGE PROFILE</h6>
+				<div class="a1-card-8 a1-light-blue" style="width:600px; margin:0 auto;">
+					<div class="a1-container a1-light-blue a1-center">
+						<h1> <b> CHANGE PROFILE </b> </h1>
 					</div>
 					<form id="form1" name="form1" method="post" class="a1-container" action="">
 						<table width="100%" border="0" align="center">
@@ -134,7 +134,7 @@ if (isset($_POST['submit'])) {
 										</tr>
 										<tr>
 											<td height="35">PASSWORD</td>
-											<td height="35"><span class="form-control">*********</span> <a href="change_pwd.php" class="a1-btn a1-orange">Change password</a> <span class="help-block">*For security reasons hidden</span></td><br>
+											<td height="35"><span class="form-control">*********</span> <a href="change_pwd.php" class="a1-btn a1-orange">Change password</a> <span class="help-block"><br>*For security reasons hidden</br></span></td><br>
 										</tr>
 
 										<br>
@@ -142,8 +142,8 @@ if (isset($_POST['submit'])) {
 										<tr>
 										<tr>
 											<td height="35">&nbsp;</td>
-											<td height="35"><input class="a1-btn a1-blue" type="submit" name="submit" id="submit" value="SUBMIT">
-												<input class="a1-btn a1-blue" type="reset" name="reset" id="reset" value="Reset"></td>
+											<td height="35"><input class="a1-btn a1-green" type="submit" name="submit" id="submit" value="SUBMIT">
+												<input class="a1-btn a1-red" type="reset" name="reset" id="reset" value="Reset"></td>
 										</tr>
 									</table>
 								</td>
