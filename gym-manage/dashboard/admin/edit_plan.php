@@ -83,7 +83,9 @@
 
  			</div>
 
- 			<h3>Update Plan</h3>
+ 			<div class = "tile-stats title">
+			<h1 >Edit Plan</h1>
+	</div>
 
  			<hr />
  			<?php
