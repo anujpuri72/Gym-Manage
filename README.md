@@ -1,4 +1,4 @@
-# DBMS Assignment
+# GYM Management System
 
 # Software Requirements 
 1. Xampp 
